@@ -1,0 +1,784 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+
+* {
+    
+    padding: 0;
+    margin: 0;
+    font-size: 100%; 
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    scroll-behavior: smooth;
+}
+
+img {
+
+    max-width: 100%;
+}
+
+.skip-link {
+  
+    color: #7a30ff;
+    background-color: #fff530;
+    position: absolute;
+    left: -1000px;
+    display: block;
+    padding: 0.5em;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;    
+  }
+  
+.skip-link, .location-button a, #main-nav li a, .category-button a, .footer-button a {
+
+    text-decoration: none;
+}
+
+  .skip-link:focus {
+  /*  focus is a pseudo class  */
+    
+    position: initial;
+    left: 0;
+  }
+
+
+
+/* header */
+
+
+#main-nav img {
+    
+    max-width: 3.5em;
+}
+
+.nav-3-options {
+
+    padding: 0;
+    max-width: 30%;
+}
+
+
+
+/* home page */
+
+#top-img {
+    
+    background-image: url(Images_Website10yrs/yellow.jpg);
+    background-size: cover;
+    min-height: 10em;
+}
+
+#nav-shadow {
+
+    box-shadow: 1px 2px 10px 1px rgba(0, 0, 0, 0.2);
+}
+
+#main-nav {
+
+    display: block;
+    background-color: #fff64a;
+    margin: 0;
+}
+
+
+#main-nav li a {
+
+    font-size: 1.2rem;
+    padding: 0.5em 3em;
+}
+
+nav ul {
+
+    list-style: none;
+}
+
+#main-nav a {
+
+    color: #3f00b3;
+}
+
+
+h1 {
+
+    color: #7a30ff;
+    font-family: 'Playfair Display', serif;
+    border-style: none none double none;
+    border-color: #7a30ff;
+    border-width: 0.12em;
+    text-align: center;
+    padding: 0.2em 1em;
+    margin-bottom: 1em;
+}
+
+h2, h3 {
+
+    padding: 0.2em 0.75em;
+    text-align: center;
+    color: #3f00b3;
+}
+
+#index-subtitle {
+
+    border-bottom: 0.1em solid #7a30ff;
+    border-top: 0.1em solid #7a30ff;
+    color: #3f00b3;
+    font-size: 1.5rem;
+    margin: 1.5em 5em 0 5em;
+    text-align: center;
+    padding: 0.4em;
+}
+
+#fun-facts-bubble {
+
+    background-color: #7a30ff;
+    border-radius: 0.75em;
+    margin: 0 2em;
+    padding: 1.5em 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+#fun-facts-bubble li, sup, #fun-facts-bubble h2, #fun-facts-bubble p {
+  
+    color: #fffaeb;   
+}
+
+#fun-facts-bubble h2, #fun-facts-bubble p {
+
+    text-align: center;
+}
+
+#fun-facts-bubble ul {
+
+    padding: 0 2.8em 0 4em;
+}
+
+.flexbox-main {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.category-button div {
+
+    margin: 2em;
+    padding: 1.5em;
+    border-radius: 0.75em;
+    background-color: #fff530;
+    width: 10em;
+    height: 10em;
+    text-align: center;
+}
+
+.category-button {
+
+    text-decoration: none;
+}
+
+.category-button span {
+
+    font-size: 1.9rem;
+    text-align: center;
+    color: #3f00b3;    
+}
+
+.category-icon {
+
+    margin: 0 1.5em 1em 1.3em;
+    max-width: 60%;
+}
+
+
+/* category pages */
+
+#category1-p {
+
+    text-align: center;
+}
+
+#italics-para {
+
+    text-align: center;
+    font-style: italic;
+    background-color: #fff64a;
+    color: #3f00b3;
+    margin: 0 0 1em 0;
+}
+
+#bold-font {
+
+    font-weight: 700;
+}
+
+#location1-pic {
+
+    background-image: url(images_website10yrs/location1-button.png);
+}
+
+#location2-pic {
+
+    background-image: url(images_website10yrs/location2-button.png);
+}
+
+#location3-pic {
+
+    background-image: url(images_website10yrs/location3-button.jpg);
+}
+
+#location4-pic {
+
+    background-image: url(images_website10yrs/location4-button.jpg);
+}
+
+#location1-pic, #location2-pic, #location3-pic, #location4-pic {
+
+    text-align: center;
+    font-size: 3rem;
+    background-position: center;
+    background-size: 105%;
+    border-radius: 0.75em;
+    width: 6.5em;
+}
+
+#location1-pic, #location3-pic, #location4-pic {
+
+    padding: 2em 0;
+}
+
+#location2-pic {
+
+    padding: 2.5em 0em;
+}
+
+.location-button a {
+ 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 1.5em;
+    
+}
+
+.location-button span {
+
+    color: #3f00b3;
+    font-weight: 700;
+}
+
+
+/* location pages */
+ 
+.breadcrumb ul {
+
+    margin: 1em 2em 5em 1em;
+}
+
+.breadcrumb li, .breadcrumb li a {
+
+    display: inline;
+    font-size: 1rem;
+    color: #3f00b3;
+}
+
+.breadcrumb li:not([aria-current])::after {
+    
+    text-decoration: none;
+    content: "›";
+    content: "›"/"";
+    margin: 0 0.5em;
+  }
+
+.breadcrumb nav li a {
+
+    padding: 0;
+}
+
+
+#flexbox-main {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3 {
+
+    margin: 2em 1em 0 1em;
+}
+
+
+.half-width-imgs {
+
+    width: 49%;
+    height: 20em;
+    object-fit: cover;
+    max-width: 30em;
+}
+
+#half-width {
+
+    text-align: center;
+}
+
+#swanston-img {
+
+    margin-bottom: 1em;
+}
+
+
+.money-ranking {
+
+    padding: 0.5em;
+    background-color: #f8db85;
+    border-style: dotted;
+    border-color: #fff530;
+    text-align: center;
+    max-width: 2em;
+    margin-top: 0.5em
+}
+
+
+
+
+
+
+
+/* about page */
+
+#highway-img {
+
+    object-fit: cover;
+    max-height: 35em;
+    min-width: 100%;
+}
+
+#social-media-icon {
+text-align: center;
+}
+
+#social-media-icon img {
+
+    display: initial;
+    width: 5em;
+}
+
+#references p, #references a {
+
+    text-align: left;
+    margin-bottom: 1em;
+}
+
+
+
+
+
+/* footer */
+
+footer {
+
+    background-color: #3f00b3;
+    padding: 1em 0 0 0;
+    margin-top: 2em;
+}
+
+#footer-top-home-button {
+    
+    text-decoration: none;
+    max-width: 75%;
+    /* this is just for the phone, and works without putting in the media query */
+    padding: 0.35em 2.5em;
+    border-radius: 0.5em;
+    background-color: #7a30ff;
+    color: #fffaeb;
+}
+
+#footer-button-center {
+
+    text-align: center;
+    margin: 1.5em 1em 1.5em 1em;
+}
+
+#footer-top-home-button:hover {
+
+    background-color: #fff530;
+    transition: 0.25s;
+    color: #7a30ff;
+}
+
+
+.footer-button {
+
+    color: #fffaeb;
+}
+
+#footer-logo {
+
+    text-align: center;
+}
+
+#footer-logo img {
+
+    width: 12em;
+    margin: 0.5em 0;
+}
+
+#copyright-para {
+
+    color: #fffaeb;
+    text-align: center;
+    margin: 0;
+    font-size: 1rem;
+}
+
+
+
+
+
+
+
+
+/* media queries for responsive design */
+
+/* mobile phone/iPhone X */
+@media (min-width: 375px) {
+
+#top-img {
+
+    background-position: left;
+}
+
+nav li:not(.breadcrumb li) {
+
+    border-color: #C2C2FE;
+    border-style: none none solid none;
+    border-width: 0.1em;
+    text-align: center;
+}
+
+#website-logo {
+
+    margin: 1em 1.7em;
+    width: 14em;
+}
+
+#main-nav li a {
+
+    font-size: 1.5rem;
+    padding: 0em 2em 0 0.7em;
+}
+
+#main-nav img {
+
+    max-width: 3em;
+}
+
+
+h1 {
+
+    font-size: 3.5rem;
+    padding: 0.1em;
+    margin: 0.5em 0.3em 0.1em 0.3em;
+}
+
+#about {
+
+    margin-bottom: 0.6em;
+}
+
+h2 {
+
+    font-size: 2.5rem;
+    margin-top: 1em;
+}
+
+h3 {
+
+    font-size: 1.4rem;
+}
+
+p {
+    font-size: 1rem;
+    padding: 1em 1.5em;
+    text-align: left;
+}
+
+.breadcrumb ul {
+
+    margin: 1em 0.5em 5em 1em;
+}
+
+#fun-facts-bubble {
+
+    max-width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.footer-button {
+
+    display: block;
+    text-align: center;
+    padding: 0.3em 0;
+    margin: 0;
+}
+
+}
+
+
+
+
+/* tablet/iPad */
+@media (min-width: 768px) {
+
+#top-img {
+
+    background-position: center;
+}
+
+#website-logo {
+
+    margin: 0.5em 1em;
+    width: 20em;
+}
+
+#main-nav li a {
+
+    font-size: 1rem;
+    padding: 0em 2em 0 0.7em;
+}
+
+#main-nav img {
+
+    max-width: 2.5em;
+}
+
+#main-nav {
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    align-content: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.location-imgs {
+
+    width: 80%;
+    height: 40em;
+    object-fit: cover;
+}
+
+nav li:not(.breadcrumb li) {
+
+    border-style: none;
+    display: flex;
+    align-items: center;
+    padding: 0.25em 1.5em;
+}
+
+
+.category-button {
+
+    max-width: 30%;
+}    
+
+h1 {
+
+    font-size: 4rem;
+    margin: 0.5em 2em 0 2em;
+}
+
+h2:not(#fun-facts-bubble h2) {
+
+    font-size: 2.5rem;
+    border-bottom: 0.05em solid #3f00b3;
+    max-width: 75%;
+}
+
+#h2-margin {
+
+    margin-top: 3em;
+}
+
+#swanston-title {
+
+    margin: 3em 1em 1.5em 1em;
+}
+
+h3 {
+
+    font-size: 2rem;
+}
+
+#h3-margin {
+
+    margin-top: 0.5em;
+}
+
+#index-subtitle {
+
+    margin: 2.5em 12em 0 12em;
+    font-size: 1.5rem;
+    max-width: 25em;
+}
+
+p {
+
+    font-size: 1rem;
+    margin: 0 5em 2em 5em;
+}
+    
+#references p {
+
+    margin: 0 7em 2em 7em;
+    padding: 0 1em;
+}
+
+
+
+.first-pg-para {
+
+    margin: 2em 4em 1rem 4em;
+    text-align: center;
+}
+
+#fun-facts-bubble {
+
+    margin: 0 10em;
+}
+
+.breadcrumb ul {
+
+    margin: 1.5em 0 5em 6em;
+}
+
+.breadcrumb li, .breadcrumb li a {
+
+    font-size: 1rem;
+    margin: 0em 2em 0 0em;
+}
+
+#footer-top-home-button section {
+
+    margin: 1em 2em 1em 11em;
+}
+
+.footer-button {
+
+    display: inline-block;
+    padding: 0 1em;
+}
+
+#footer-button-margin {
+
+    margin: 1em 4em 1em 6.5em;
+}
+
+}
+
+/* desktop */
+@media (min-width: 1440px) {
+
+#website-logo {
+
+    margin: 2em 5em;
+}
+
+#index-subtitle {
+
+    margin: 1.5em 8em 0 17.1em;
+}
+
+.location-imgs {
+
+    width: 50%;
+}
+
+h1, p:not(#copyright-para) {
+
+    max-width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 1em;
+}
+
+h2:not(#fun-facts-bubble h2, #swanston-title) {
+
+    margin: 2.5em 7em 0 7em;
+}
+
+#fun-facts-bubble {
+
+    max-width: 25em;
+    margin: 0 2em
+}
+
+p {
+
+    margin-bottom: 2em;
+}
+
+
+.flexbox-main {
+
+    flex-direction: row;
+}
+
+.category-button:hover {
+
+    background-color: #7a30ff;
+}
+
+.category-button a:hover {
+
+    color: black;
+}
+
+#location1-pic {
+
+    width: 7.5em;
+    padding: 2.4em 0;
+}
+
+#location2-pic {
+
+    font-size: 3.5rem;
+    width: 6.5em;
+    padding: 2.5em 0em;
+}
+
+#location3-pic, #location4-pic {
+
+    font-size: 3.5rem;
+    width: 6.5em;
+    padding: 2em 0em;
+}
+
+.breadcrumb ul {
+
+    margin: 0.5em 2em 4em 12em;
+    font-size: 2rem;
+}
+
+#footer-top-home-button {
+
+    font-size: 1.5rem;
+}
+
+.footer-button {
+
+    font-size: 1.2rem;
+}
+
+#footer-button-margin {
+
+    margin: 1em 23em;
+}
+
+} 
